@@ -48,21 +48,34 @@ table {
 }
 
 html { 
-  background: url("../images/background.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	background: url("../images/background.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 #logo
 {
-	width: 350px;
+	width: 250px;
 	display: block;
-	top: 50%;
-	left: 50%;
 	margin: auto;
-	margin-top: 8%;
+	margin-top: 75px;
+	margin-bottom: 50px;
+}
+
+#video
+{
+	display: block;
+	margin: auto;
+	margin-bottom: 75px;
+}
+
+#steam
+{
+	display: block;
+	margin: auto;
+	margin-bottom: 75px;
 }
 
 #name
@@ -70,11 +83,11 @@ html {
 	font-family: "colaborate-thinregular";
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 70px;
+	font-size: 50px;
 	color: #4c5a65;
 	letter-spacing: 40px;
 	margin-left: 40px;
-	margin-top: 50px;
+	margin-bottom: 75px;
 }
 
 #comingsoon
